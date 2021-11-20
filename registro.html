@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge"
+        http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1.0"
+        name="viewport">
+  <link href="/public/cartita.ico"
+        rel="shortcut icon">
+  <link href="/css/form.css"
+        rel="stylesheet">
+  <title>PokerAllin</title>
+  <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+  <div class="container"
+       id="app1">
+    <!--  este div esta siendo manipulado por VueJS -->
+    <div class="cards"><img alt=""
+         v-bind:src="cartas[0].url"><img alt=""
+         v-bind:src="cartas[1].url"><img alt=""
+         v-bind:src="cartas[2].url"><img alt=""
+         v-bind:src="cartas[3].url"><img alt=""
+         v-bind:src="cartas[4].url"></div>
+    <div class="box-container">
+      <!--  aqui termina el bloque de arriba ↑ -->
+      <div class="mid">
+        <form action="">
+          <label for="">nombre de usuario</label> <input class="dato"
+                id="user"
+                placeholder="usuario"
+                type="text"> <label for="">contraseña</label> <input class="dato"
+                id="pass"
+                placeholder="contraseña"
+                type="password"> <label for="">confirma contraseña</label> <input class="dato"
+                id="repPass"
+                placeholder="confirma contraseña"
+                type="password"> <label for="">correo electronico</label> <input class="dato"
+                id="mail"
+                placeholder="example@..."
+                type="text">
+        </form>
+      </div>
+    </div>
+    <div class="button-box">
+      <button class="btn-login"
+           onclick="validar()"
+           type="button"
+           v-on:click="validavalue">registrarce</button>
+    </div>
+  </div>
+  <script src="/scripts/form.js"></script>
+</body>
+</html>

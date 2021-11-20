@@ -1,0 +1,139 @@
+@font-face{
+    font-family:"Emberly-black";
+    src: url("/public/fonts/Emberly-Black.ttf");
+}
+@font-face{
+    font-family:"Emberly-extra-light";
+    src: url("/public/fonts/Emberly-ExtraLight.ttf");
+}
+@font-face{
+    font-family:"Emberly-medium";
+    src: url("/public/fonts/Emberly-Medium.ttf");
+}
+
+
+
+body{
+    margin: 0;
+    color: #CECECE;
+    background-color: #0E0A0A;
+}
+
+.container{
+    width: 100%;
+    background-color: #0E0A0A;
+    height: 100%
+
+}
+
+.box-container{
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.fichauser{
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    position: relative;
+    top:60px;
+}
+
+
+.mid{
+    display: flex;
+    width: 100;
+    height: 200px;    
+    border: #CECECE;
+    border-style: solid;
+    border-width: 1px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+form{
+    width: 60%;
+    margin-top: 9%;
+}
+
+input{
+    border-style: solid;    
+    background-color: #0E0A0A;
+    border-color: #CECECE;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%; 
+    height: 25px;
+    color:#CECECE;   
+    margin-top: 4%;
+}
+
+.userico{
+    font-family: "Font Awesome 5 Pro", "Emberly-extra-light"; font-weight: 300;
+    font-size: 150%;
+}
+.passico{
+    font-family: "Font Awesome 5 Pro", "Emberly-extra-light"; font-weight: 300;
+    font-size: 150%;
+}
+
+input:focus{
+    outline: none;
+    width: 100%;
+    height: 30px;
+}
+
+.button-box{
+    display: flex;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 6%;
+    justify-content: center;    
+}
+
+.btn-login{
+    text-align: center;
+    background-color: rgba(255,255,255,0);
+    border-color: #CECECE;
+    border-style: solid;
+    padding: 1%;
+    color:#CECECE;
+    font-family: "Emberly-extra-light";
+    font-size: 200%;
+    letter-spacing: 8px;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+.btn-login:hover{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 5%;
+
+    transition: padding-top 0.5s;
+    transition: padding-bottom 0.5s;
+    transition: padding-left 0.25s;
+    transition: padding-right 0s;
+}
+
+.btn-login:active{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 5%;
+
+    background-color: #CECECE;
+    color: #0E0A0A;
+}
+
+a{
+    width: 60%;
+    color: #CECECE;
+    text-align: center;
+    margin-bottom: 3%;
+}
+

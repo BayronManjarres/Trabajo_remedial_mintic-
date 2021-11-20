@@ -1,0 +1,138 @@
+@font-face{
+    font-family:"Emberly-black";
+    src: url("/public/fonts/Emberly-Black.ttf");
+}
+@font-face{
+    font-family:"Emberly-extra-light";
+    src: url("/public/fonts/Emberly-ExtraLight.ttf");
+}
+@font-face{
+    font-family:"Emberly-medium";
+    src: url("/public/fonts/Emberly-Medium.ttf");
+}
+
+
+
+body{
+    margin: 0;
+    color: #CECECE;
+    background-color: #0E0A0A;
+}
+
+.container{
+    width: 100%;
+    background-color: #0E0A0A;
+    height: 100%
+
+}
+
+.cards{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.cards img{
+    width: 12%;
+    margin: 1%;
+}
+
+
+.box-container{
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+
+.mid{
+    display: flex;
+    width: 100;
+    height: 300px;    
+    border: #CECECE;
+    border-style: solid;
+    border-width: 1px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+form{
+    width: 50%;
+}
+
+input{
+    border-style: solid;    
+    background-color: #0E0A0A;
+    border-color: #CECECE;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 90%; 
+    height: 25px;
+    color:#CECECE;   
+    margin-bottom: 2%;
+}
+
+.dato{
+    font-family: "Font Awesome 5 Pro", "Emberly-extra-light"; font-weight: 300;
+    font-size: 150%;
+}
+label{
+    font-family: "Font Awesome 5 Pro", sans-serif;
+    margin-top: 2%;
+}
+
+
+input:focus{
+    outline: none;
+    width: 100%;
+    height: 30px;
+}
+
+.button-box{
+    display: flex;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 3%;
+    justify-content: center;    
+}
+
+.btn-login{
+    text-align: center;
+    background-color: rgba(255,255,255,0);
+    border-color: #CECECE;
+    border-style: solid;
+    padding: 1%;
+    color:#CECECE;
+    font-family: "Emberly-extra-light";
+    font-size: 200%;
+    letter-spacing: 8px;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+.btn-login:hover{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 5%;
+
+    transition: padding-top 0.5s;
+    transition: padding-bottom 0.5s;
+    transition: padding-left 0.25s;
+    transition: padding-right 0s;
+}
+
+.btn-login:active{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 5%;
+
+    background-color: #CECECE;
+    color: #0E0A0A;
+}
+
